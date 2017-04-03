@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{5D22F464-3E97-4631-B886-3C0F62F06B03}|" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="sssss/demo.aspx.cs">
+    <Files>
+      <File FileName="sssss/demo.aspx.cs" Line="136" Column="37" />
+      <File FileName="sssss/CountryJson.txt" Line="16" Column="13" />
+      <File FileName="sssss/Demo1.aspx.cs" Line="12" Column="28" />
+      <File FileName="sssss/Multiview_control.aspx.designer.cs" Line="23" Column="1" />
+      <File FileName="sssss/wizardDemo.aspx" Line="7" Column="7" />
+      <File FileName="sssss/wizardDemo.aspx.cs" Line="59" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.sssss PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

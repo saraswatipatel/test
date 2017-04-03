@@ -1,0 +1,201 @@
+﻿{
+  "Continents": [
+    {
+      "ID": "1",
+      "Name": "Asia"
+    },
+    {
+      "ID": "2",
+      "Name": "Europe"
+    },
+    {
+      "ID": "3",
+      "Name": "South America"
+    }
+  ],
+  "Countries": [
+    {
+      "ID": "1",
+      "Name": "India",
+      "ContinentID": "1"
+    },
+     {
+      "ID": "2",
+      "Name": "Japan",
+      "ContinentID": "1"
+    },
+    {
+      "ID": "3",
+      "Name": "Malaysia",
+      "ContinentID": "1"
+    },
+    {
+      "ID": "4",
+      "Name": "United Kingdom",
+      "ContinentID": "2"
+    },
+    {
+      "ID": "5",
+      "Name": "France",
+      "ContinentID": "2"
+    },
+    {
+      "ID": "6",
+      "Name": "Germany",
+      "ContinentID": "2"
+    },
+    {
+      "ID": "7",
+      "Name": "Argentina",
+      "ContinentID": "3"
+    },
+    {
+      "ID": "8",
+      "Name": "Brazil",
+      "ContinentID": "3"
+    },
+    {
+      "ID": "9",
+      "Name": "Colombia",
+      "ContinentID": "3"
+    }
+  ],
+
+  "City": [
+    {
+      "ID": "1",
+      "Name": "Bangalore",
+      "CountryID": "1"
+    },
+    {
+      "ID": "2",
+      "Name": "Chennai",
+      "CountryID": "1"
+    },
+    {
+      "ID": "3",
+      "Name": "Mumbai",
+      "CountryID": "1"
+    },
+    {
+      "ID": "4",
+      "Name": "Tokyo",
+      "CountryID": "2"
+    },
+    {
+      "ID": "5",
+      "Name": "Hiroshima",
+      "CountryID": "2"
+    },
+    {
+      "ID": "6",
+      "Name": "Saku",
+      "CountryID": "2"
+    },
+    {
+      "ID": "7",
+      "Name": "Kuala Lumpur",
+      "CountryID": "3"
+    },
+    {
+      "ID": "8",
+      "Name": "Ipoh",
+      "CountryID": "3"
+    },
+    {
+      "ID": "9",
+      "Name": "Tawau",
+      "CountryID": "3"
+    },
+    {
+      "ID": "10",
+      "Name": "London",
+      "CountryID": "4"
+    },
+    {
+      "ID": "11",
+      "Name": "Manchester",
+      "CountryID": "4"
+    },
+    {
+      "ID": "12",
+      "Name": "Birmingham",
+      "CountryID": "4"
+    },
+    {
+      "ID": "13",
+      "Name": "Paris",
+      "CountryID": "5"
+    },
+    {
+      "ID": "14",
+      "Name": "Cannes",
+      "CountryID": "5"
+    },
+    {
+      "ID": "15",
+      "Name": "Nice",
+      "CountryID": "5"
+    },
+    {
+      "ID": "16",
+      "Name": "Frankfurt",
+      "CountryID": "6"
+    },
+    {
+      "ID": "17",
+      "Name": "Eutin",
+      "CountryID": "6"
+    },
+    {
+      "ID": "18",
+      "Name": "Alsfeld",
+      "CountryID": "6"
+    },
+    {
+      "ID": "19",
+      "Name": "Rosario",
+      "CountryID": "7"
+    },
+    {
+      "ID": "20",
+      "Name": "Salta",
+      "CountryID": "7"
+    },
+    {
+      "ID": "21",
+      "Name": "Corrientes",
+      "CountryID": "7"
+    },
+    {
+      "ID": "22",
+      "Name": "Rio de Janeiro",
+      "CountryID": "8"
+    },
+    {
+      "ID": "23",
+      "Name": "Salvador",
+      "CountryID": "8"
+    },
+    {
+      "ID": "24",
+      "Name": "Brasília",
+      "CountryID": "8"
+    },
+    {
+      "ID": "25",
+      "Name": "Cali",
+      "CountryID": "9"
+    },
+    {
+      "ID": "26",
+      "Name": "Montería",
+      "CountryID": "9"
+    },
+    {
+      "ID": "27",
+      "Name": "Bello",
+      "CountryID": "9"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+/Users/vipulparashar/Projects/sssss/sssss/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/vipulparashar/Projects/sssss/sssss/bin/sssss.dll
+/Users/vipulparashar/Projects/sssss/sssss/obj/Release/sssss.dll
+/Users/vipulparashar/Projects/sssss/sssss/bin/Newtonsoft.Json.dll

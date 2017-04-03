@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D22F464-3E97-4631-B886-3C0F62F06B03}</ProjectGuid>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>demo</RootNamespace>
+    <AssemblyName>sssss</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+    <Content Include="Global.asax" />
+    <Content Include="demo.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="Demo1.aspx" />
+    <Content Include="Images\Calendar.png" />
+    <Content Include="Multiview_control.aspx" />
+    <Content Include="wizardDemo.aspx" />
+    <Content Include="multiview1.aspx" />
+    <Content Include="WizardDemo1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="demo.aspx.cs">
+      <DependentUpon>demo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo.aspx.designer.cs">
+      <DependentUpon>demo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo1.aspx.cs">
+      <DependentUpon>Demo1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo1.aspx.designer.cs">
+      <DependentUpon>Demo1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Multiview_control.aspx.cs">
+      <DependentUpon>Multiview_control.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Multiview_control.aspx.designer.cs">
+      <DependentUpon>Multiview_control.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wizardDemo.aspx.cs">
+      <DependentUpon>wizardDemo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wizardDemo.aspx.designer.cs">
+      <DependentUpon>wizardDemo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="multiview1.aspx.cs">
+      <DependentUpon>multiview1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="multiview1.aspx.designer.cs">
+      <DependentUpon>multiview1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WizardDemo1.aspx.cs">
+      <DependentUpon>WizardDemo1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WizardDemo1.aspx.designer.cs">
+      <DependentUpon>WizardDemo1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TestJson.txt" />
+    <None Include="CountryJson.txt" />
+    <None Include="AdsData.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>
